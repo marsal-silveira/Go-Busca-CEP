@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  cep-provider:
+    container_name: cep-provider
+    image: 'cep-provider:latest'
+    restart: always
+    ports:
+      - '8081:8081'
